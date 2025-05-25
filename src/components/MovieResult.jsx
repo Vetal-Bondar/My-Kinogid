@@ -32,7 +32,6 @@ const MovieResult = ({ answers, onRestart }) => {
   const fetchMovies = () => {
     const genreId = genreMap[answers.genre];
 
-    // Визначаємо діапазон років відповідно до епохи
     let yearFrom = 1950;
     let yearTo = new Date().getFullYear();
 
